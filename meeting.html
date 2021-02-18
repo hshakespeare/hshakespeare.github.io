@@ -1,3 +1,50 @@
 <!DOCTYPE html>
 <html>
+<style>
+  body {
+    background-color: teal;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: #222;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: black;
+    color: white;
+  }
+  li a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  li a:hover:not(.active) {
+    background-color: black;
+    color: white;
+  }
+  li {
+    text-align: center;
+  }
+</style>
+<head>
+  <title>BETA Virtual Learning/Meeting Suite</title>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a class="active" href="meeting.html">Meeting</a></li>
+    <li><a href="files.html">Files</a></li>
+  </ul>
+</head>
+<body>
+  
+</body>
 </html>
